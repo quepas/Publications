@@ -26,7 +26,7 @@
 
 \institute{AGH University of Science and Technology,\\
 al. A. Mickiewicza 30, 30-059 Krakow, Poland\\
-\email{kiepas@student.agh.edu.pl,\{sbobek,gjn\}@agh.edu.pl}}
+\email{\{kiepas,sbobek,gjn\}@agh.edu.pl}}
 
 \maketitle
 
@@ -48,11 +48,11 @@ We distinguish three phases in the recommendation mechanism: 1) knowledge acquis
 
 \paragraph{Building meta-knowledge}
 
-In the acquisition phase main goal is to build meta-knowledge that describes dependecies between datasets and performance of machine learning algorithms executed on them. 
+In the acquisition phase main goal is to build meta-knowledge that describes dependencies between datasets and performance of machine learning algorithms executed on them. 
 
 For every dataset in the OpenML database, a set of meta-attributes is available that includes: statistical information  (e.g. number of classes and features, kurtosis of numeric attributes), information-theoretic characteristics (e.g. class or mean attribute entropy), and model-based information (e.g. J48 or kNN AUC). Each of such characteristics has a different non-missing value coverage that varies from 6.5\% to 100\%. We choose threshold for required values coverage to 20\% to leave meaningful meta-attributes. Missing values are filled with Amelia-II algorithm \cite{HonakerKingBlackwell2011}.
 
-Meta-knowledge combines meta-attributes from dataset characteristics with corresponding algorithm label or ranking. We choose only fixed number of algorithms that are taken into consideration (usually $N$ top used in OpenML). After that we filter the results with respect to performance and leave only the set of best algorithms. Afterwards we consider meta-knowledge as labeled dataset. Using the WEKA J48 algorithm we create decision tree which is converts to the XTT2 rule representation (ang. \textit{eXtended Tabular Trees}).
+Meta-knowledge combines meta-attributes from dataset characteristics with corresponding algorithm label or ranking. We choose only fixed number of algorithms that are taken into consideration (usually $N$ top used in OpenML). After that we filter the results with respect to performance and leave only the set of best algorithms. Afterwards we consider meta-knowledge as labeled dataset. Using the WEKA J48 algorithm we create decision tree which is converts to the XTT2 rule representation (\textit{eXtended Tabular Trees}).
 
 \vspace{-0.3em}
 
