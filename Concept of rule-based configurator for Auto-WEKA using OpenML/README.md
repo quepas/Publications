@@ -13,7 +13,7 @@
 
 > International Workshop on Meta-Learning and Algorithm Selection co-located with European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2015
 
-Presented in form of a [poster]().
+Presented in form of a [poster](poster/).
 
 Porto, Portugal, September 7th, 2015
 
