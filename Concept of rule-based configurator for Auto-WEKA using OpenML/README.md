@@ -2,7 +2,7 @@
 
 **Keywords:** meta-learning, algorithm selection, hyperparemeter optimization, machine learning, OpenML, Auto-WEKA
 
-Implementation: [Oy-mate](https://github.com/quepas/Oy-mate)
+**Implementation**: [Oy-mate](https://github.com/quepas/Oy-mate)
 
 ### Abstract
 > Despite a large amount of research devoted to improving meta-learning techniques, providing and using background knowledge for this task remains a~challenge. In this paper we propose a mechanism for automatic recommendation of suitable machine learning algorithms and their parameters. We used OpenML database and use rule-based configurator to improve Auto-WEKA tool. This paper discusses the concept of our approach and the prototype tool based on the HeaRTDroid rule engine being developed.
